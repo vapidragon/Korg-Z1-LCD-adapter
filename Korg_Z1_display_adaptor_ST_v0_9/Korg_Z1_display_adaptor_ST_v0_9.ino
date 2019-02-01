@@ -1,6 +1,5 @@
 #define Serial Serial1
 
-
 const int pinOUT_LED  =  PB4; // [ ] Write Select (Active Low) 
 #define pin_LED_1 GPIOB->regs->BSRR |= 0b0000000000010000   
 #define pin_LED_0 GPIOB->regs->BRR  |= 0b0000000000010000   
